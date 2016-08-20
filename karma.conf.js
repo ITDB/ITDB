@@ -40,3 +40,15 @@
  *              --/The Heart of Karma Test Runner System/-- of "ITDB®".
  * __________________________________________________________________________________
  */
+/*!
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * “Six mistakes mankind keeps making century after century:-
+ *    - Believing that personal gain is made by crushing others;
+ *    - Worrying about things that cannot be changed or corrected;
+ *    - Insisting that a thing is impossible because we cannot accomplish it;
+ *    - Refusing to set aside trivial preferences;
+ *    - Neglecting development and refinement of the mind;
+ *    - Attempting to compel others to believe and live as we do."
+ *                                                ---―> Marcus Tullius Cicero.
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
