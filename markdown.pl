@@ -22,3 +22,6 @@
 # While Markdown’s syntax has been influenced by several existing text-to-HTML filters, the single biggest source of inspiration for Markdown’s syntax is the format of plain text email.
 # The best way to get a feel for Markdown’s formatting syntax is simply to look at a Markdown-formatted document. For example, you can view the Markdown source for the article text on this page here:
 # http://daringfireball.net/projects/markdown/index.text
+
+# Markdown is free software, available under a BSD-style open source license. See the License page for more information.
+#         URL: http://daringfireball.net/projects/markdown/license
