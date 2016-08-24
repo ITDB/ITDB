@@ -25,3 +25,11 @@
 
 # Markdown is free software, available under a BSD-style open source license. See the License page for more information.
 #         URL: http://daringfireball.net/projects/markdown/license
+
+# ----------------------------------------------------------------
+# Installation and Requirements
+# ----------------------------------------------------------------
+# Markdown requires Perl 5.6.0 or later. Welcome to the 21st Century.
+# Markdown also requires the standard Perl library module [Digest::MD5]
+# [md5], which is probably already installed on your server.
+#         URL: http://search.cpan.org/dist/Digest-MD5/MD5.pm
