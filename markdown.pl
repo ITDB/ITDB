@@ -39,3 +39,4 @@
 # http://daringfireball.net/projects/downloads/Markdown_1.0.1.zip
 # ----------------------------------------------------------------
 package Markdown;
+require 5.006_000;
