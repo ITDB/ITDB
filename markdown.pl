@@ -33,3 +33,9 @@
 # Markdown also requires the standard Perl library module [Digest::MD5]
 # [md5], which is probably already installed on your server.
 #         URL: http://search.cpan.org/dist/Digest-MD5/MD5.pm
+
+# ----------------------------------------------------------------
+# [Markdown 1.0.1][dl] (18 KB) -- 17 Dec 2004
+# http://daringfireball.net/projects/downloads/Markdown_1.0.1.zip
+# ----------------------------------------------------------------
+package Markdown;
