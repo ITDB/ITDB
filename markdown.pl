@@ -49,3 +49,6 @@ use warnings;
 
 # Help: http://search.cpan.org/dist/Digest-MD5/MD5.pm
 use Digest::MD5 qw(md5_hex);
+
+# Help: http://perldoc.perl.org/vars.html
+use vars qw($VERSION);
