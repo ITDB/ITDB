@@ -46,3 +46,6 @@ use strict;
 
 # Help: http://perldoc.perl.org/warnings.html
 use warnings;
+
+# Help: http://search.cpan.org/dist/Digest-MD5/MD5.pm
+use Digest::MD5 qw(md5_hex);
