@@ -52,3 +52,6 @@ use Digest::MD5 qw(md5_hex);
 
 # Help: http://perldoc.perl.org/vars.html
 use vars qw($VERSION);
+
+# Markdown - [1.0.1]
+$VERSION = '1.0.1';
