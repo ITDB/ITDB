@@ -43,3 +43,6 @@ require 5.006_000;
 
 # Help: http://perldoc.perl.org/strict.html
 use strict;
+
+# Help: http://perldoc.perl.org/warnings.html
+use warnings;
