@@ -1,0 +1,145 @@
+// AXIX® - https://github.com/AXIX
+/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+
+// ==========================================
+// A. The @mixin directive for normalize.css
+// @version: [v4.1.1]
+// @author : Prabhat Kumar
+/// Loads: custom - normalize.css
+/// @access private
+/// redefined normalize.css
+@mixin -axix-normalize {
+  /*! LogoType® [v1.0.0] */
+  /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+  //
+  // 1. Set default font family to sans-serif.
+  // 2. Prevent iOS and IE text size adjust after device orientation change,
+  //    without disabling user zoom.
+  //
+  html {
+    font-family: sans-serif; // 1
+    -ms-text-size-adjust: 100%; // 2
+    -webkit-text-size-adjust: 100%; // 2
+  }
+  
+  //
+  // Remove default margin.
+  //
+  body {
+    margin: 0;
+  }
+  
+  // HTML5 display definitions
+  // ==========================================================================
+  //
+  // Correct `block` display not defined for any HTML5 element in IE 8/9.
+  //
+  article,
+  figure,
+  figcaption,
+  footer,
+  header,
+  hgroup,
+  section {
+    display: block;
+  }
+  
+  // Links
+  // ==========================================================================
+  //
+  // 1. Remove the gray background color from active links in IE 10.
+  // 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+  //
+  a {
+    background-color: transparent; /* 1 */
+    -webkit-text-decoration-skip: objects; /* 2 */
+  }
+  
+  //
+  // Improve readability of focused elements when they are also in an
+  // active/hover state.
+  //
+  a:active,
+  a:hover {
+    outline: 0;
+    outline-width: 0;
+  }
+  
+  // Text-level semantics
+  // ==========================================================================
+  //
+  // Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+  //
+  b,
+  strong {
+    font-weight: bold;
+  }
+  
+  //
+  // Address variable `h1` font-size and margin within `section` and `article`
+  // contexts in Firefox 4+, Safari, and Chrome.
+  //
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  //
+  // Address inconsistent and variable font size in all browsers.
+  //
+  small {
+    font-size: 80%;
+  }
+  
+  //
+  // Prevent `sub` and `sup` affecting `line-height` in all browsers.
+  //
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  sub {
+    bottom: -0.25em;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
+  
+  // Embedded content
+  // ==========================================================================
+  //
+  // Remove the border on images inside links in IE 10-.
+  //
+  img {
+    border-style: none;
+  }
+  
+  //
+  // Correct overflow not hidden in IE 9/10/11.
+  //
+  svg:not(:root) {
+    overflow: hidden;
+  }
+  
+  // Grouping content
+  // ==========================================================================
+  //
+  // Address margin not present in IE 8/9 and Safari.
+  //
+  figure {
+    margin: 1em 40px;
+  }
+  
+  //
+  // Address differences between Firefox and other browsers.
+  //
+  hr {
+    box-sizing: content-box;
+    height: 0;
+  }
+}
