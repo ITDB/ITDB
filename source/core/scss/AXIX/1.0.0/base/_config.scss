@@ -1,2 +1,60 @@
 // AXIX® [v1.0.0], Configurations.
 // AXIX® - https://github.com/AXIX
+
+// 1. Typography ==//==
+$axix-base-font-family:  quote("Helvetica Neue"), Helvetica, Arial, sans-serif !default;
+$axix-base-font-family-sans-serif:              quote("Open Sans"), sans-serif !default;
+$axix-base-font-family-display:                   quote("Poiret One"), cursive !default;
+$axix-base-font-size:                                                     14px !default;
+
+// 1.1 Heading: <h1> to <h6>
+$axix-base-font-size-h1:                  floor(($axix-base-font-size * 2.00)) !default; // ~28px
+$axix-base-font-size-h2:                  floor(($axix-base-font-size * 1.74)) !default; // ~24px
+$axix-base-font-size-h3:                   ceil(($axix-base-font-size * 1.22)) !default; // ~18px
+$axix-base-font-size-h4:                  floor(($axix-base-font-size * 1.18)) !default; // ~16px
+$axix-base-font-size-h5:                  floor(($axix-base-font-size * 1.00)) !default; // ~14px
+$axix-base-font-size-h6:                  floor(($axix-base-font-size * 0.79)) !default; // ~11px
+// 1.2 line-height
+$axix-base-line-height:                                            1.428571429 !default; // [20/14]
+$axix-line-height-computed: floor(($axix-base-font-size * $axix-base-line-height)) !default; // ~20px
+// 1.3 Heading: <h1> to <h6>
+$axix-headings-font-weight:                                                600 !default;
+$axix-headings-color:                                                  inherit !default;
+
+// 2. Z-index ==//==
+$axix-base-zindex-navbar:                                                 1001 !default;
+
+// 3. Components ==//==
+$axix-base-padding-base-vertical:                                          4px !default;
+$axix-base-padding-base-horizontal:                                        4px !default;
+$axix-base-margin-base-vertical:                                          10px !default;
+$axix-base-margin-base-horizontal:                                        10px !default;
+
+// 4. Colors ==//==
+$axix-brand-bg-color:                                                  #F9F8F4 !default;
+$axix-brand-color:                                                     #808064 !default;
+$axix-brand-bg-color-dark:                               darken(#F9F8F4, 4.9%) !default;
+$axix-brand-color-dark:                                  darken(#808064, 7.9%) !default;
+$axix-brand-bg-color-light:                lighten($axix-brand-bg-color, 4.9%) !default;
+$axix-brand-color-light:                       lighten($axix-brand-color,7.9%) !default;
+// 4.1 Global text link color.
+$axix-base-link-color:                                                 #E79E36 !default;
+$axix-base-link-hover-color:                                           #E72E32 !default;
+// 4.2 Link hover decoration.
+$axix-base-hover-decoration:                                         underline !default;
+// 4.3 Logotype Border Color
+$axix-logotype-border-color:                                           #FA8B60 !default;
+// 4.4 Logotype Background Color
+$axix-logotype-background-color-one:                                   #FA8B60 !default;
+$axix-logotype-background-color-two:                                   #A45B3F !default;
+// 4.5 Logotype FigCaption Color
+$axix-logotype-figcaption-color:                        rgba(255,255,255,0.14) !default;
+
+// 5. Logotype Units
+$axix-unit-0em:                                                            0em !default;
+$axix-unit-1em:                                                            1em !default;
+$axix-unit-2em:                                                            2em !default;
+$axix-unit-3em:                                                            3em !default;
+$axix-unit-4em:                                                            4em !default;
+$axix-unit-5em:                                                            5em !default;
+$axix-unit-hundred:                                                       100% !default;
