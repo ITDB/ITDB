@@ -1,0 +1,9 @@
+---------------------------------------
+Requirements
+---------------------------------------
+1. Ruby     - ruby -v
+2. Sass     - sass -v
+3. Compass  - compass version
+4. Node.js  - node -v
+5. NPM      - npm -v
+6. Grunt 	- grunt -v
