@@ -3,3 +3,147 @@
  * Licensed under the MIT license - http://opensource.org/licenses/MIT
  * Copyright (c) 2015, Daniel Eden - https://daneden.me/.
  */
+
+// CONFIGURATION
+// ========================================
+
+// Animation class hook
+// Set the class name to trigger animations
+// Defaults to "animated"
+$AnimateHook: "animated";
+
+// Animation duration
+// Sets the hook's animation duration
+// Defaults to --//1s//--
+$AnimateDuration: 1s;
+
+// FUNCTIONS
+// ====================================================
+//
+// Include functions and mixins provided by Animate.css
+
+@import "_functions/mixins";
+
+
+// BASE STYLES
+// ============================================
+//
+// Setting styles for the animation hook class.
+
+.#{$AnimateHook} {
+  animation-duration: $AnimateDuration;
+  animation-fill-mode: both;
+
+  // Modifier for infinite repetition
+  &--infinite {
+    animation-iteration-count: infinite;
+  }
+}
+
+// IMPORT by using @import directive.
+// ====================================
+//
+// Imports desired animations. Configuration is pretty straight-forward; just
+// remove the import rules for animations you don't want.
+
+// Attention seekers
+// ~~~~~~~~~~~~~~~~~
+@import "animate/attentionseekers/bounce";
+@import "animate/attentionseekers/flash";
+@import "animate/attentionseekers/pulse";
+@import "animate/attentionseekers/rubberBand";
+@import "animate/attentionseekers/shake";
+@import "animate/attentionseekers/swing";
+@import "animate/attentionseekers/tada";
+@import "animate/attentionseekers/wobble";
+
+// Bouncing entrances
+// ~~~~~~~~~~~~~~~~~~
+@import "animate/bouncingentrances/bounceIn";
+@import "animate/bouncingentrances/bounceInDown";
+@import "animate/bouncingentrances/bounceInLeft";
+@import "animate/bouncingentrances/bounceInRight";
+@import "animate/bouncingentrances/bounceInUp";
+
+// Bouncing exits
+// ~~~~~~~~~~~~~~
+@import "animate/bouncingexits/bounceOut";
+@import "animate/bouncingexits/bounceOutDown";
+@import "animate/bouncingexits/bounceOutLeft";
+@import "animate/bouncingexits/bounceOutRight";
+@import "animate/bouncingexits/bounceOutUp";
+
+// Fading entrances
+// ~~~~~~~~~~~~~~~~
+@import "animate/fadingentrances/fadeIn";
+@import "animate/fadingentrances/fadeInDown";
+@import "animate/fadingentrances/fadeInLeft";
+@import "animate/fadingentrances/fadeInRight";
+@import "animate/fadingentrances/fadeInUp";
+@import "animate/fadingentrances/fadeInDownBig";
+@import "animate/fadingentrances/fadeInLeftBig";
+@import "animate/fadingentrances/fadeInRightBig";
+@import "animate/fadingentrances/fadeInUpBig";
+
+// Fading exits
+// ~~~~~~~~~~~~
+@import "animate/fadingexits/fadeOut";
+@import "animate/fadingexits/fadeOutDown";
+@import "animate/fadingexits/fadeOutLeft";
+@import "animate/fadingexits/fadeOutRight";
+@import "animate/fadingexits/fadeOutUp";
+@import "animate/fadingexits/fadeOutDownBig";
+@import "animate/fadingexits/fadeOutLeftBig";
+@import "animate/fadingexits/fadeOutRightBig";
+@import "animate/fadingexits/fadeOutUpBig";
+
+// Flippers
+// ~~~~~~~~
+@import "animate/flippers/flip";
+@import "animate/flippers/flipInX";
+@import "animate/flippers/flipInY";
+@import "animate/flippers/flipOutX";
+@import "animate/flippers/flipOutY";
+
+// Lightspeed
+// ~~~~~~~~~~
+@import "animate/lightspeed/lightSpeedIn";
+@import "animate/lightspeed/lightSpeedOut";
+
+// Rotating entrances
+// ~~~~~~~~~~~~~~~~~~
+@import "animate/rotatingentrances/rotateIn";
+@import "animate/rotatingentrances/rotateInDownLeft";
+@import "animate/rotatingentrances/rotateInDownRight";
+@import "animate/rotatingentrances/rotateInUpLeft";
+@import "animate/rotatingentrances/rotateInUpRight";
+
+// Rotating exits
+// ~~~~~~~~~~~~~~
+@import "animate/rotatingexits/rotateOut";
+@import "animate/rotatingexits/rotateOutDownLeft";
+@import "animate/rotatingexits/rotateOutDownRight";
+@import "animate/rotatingexits/rotateOutUpLeft";
+@import "animate/rotatingexits/rotateOutUpRight";
+
+// Specials
+// ~~~~~~~~
+@import "animate/specials/hinge";
+@import "animate/specials/rollIn";
+@import "animate/specials/rollOut";
+
+// Zooming entrances
+// ~~~~~~~~~~~~~~~~~
+@import "animate/zoomingentrances/zoomIn";
+@import "animate/zoomingentrances/zoomInDown";
+@import "animate/zoomingentrances/zoomInLeft";
+@import "animate/zoomingentrances/zoomInRight";
+@import "animate/zoomingentrances/zoomInUp";
+
+// Zooming exits
+// ~~~~~~~~~~~~~
+@import "animate/zoomingexits/zoomOut";
+@import "animate/zoomingexits/zoomOutDown";
+@import "animate/zoomingexits/zoomOutLeft";
+@import "animate/zoomingexits/zoomOutRight";
+@import "animate/zoomingexits/zoomOutUp";
